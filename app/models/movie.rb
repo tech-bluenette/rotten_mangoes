@@ -1,7 +1,5 @@
 class Movie < ActiveRecord::Base
 
-  class Movie < ActiveRecord::Base
-
   validates :title,
     presence: true
 
