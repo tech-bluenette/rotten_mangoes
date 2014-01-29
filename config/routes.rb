@@ -2,7 +2,6 @@ RottenMangoes::Application.routes.draw do
   get "sessions/new"
   get "sessions/create"
   get "users/new"
-
   root to: 'movies#index'
 
   resources :movies do
